@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		690713951F26C4580041B8A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 690713941F26C4580041B8A6 /* AppDelegate.m */; };
+		690713981F26C4580041B8A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 690713971F26C4580041B8A6 /* main.m */; };
+		6907139D1F26C4580041B8A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6907139C1F26C4580041B8A6 /* Assets.xcassets */; };
+		690713A81F26C4A20041B8A6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690713A71F26C4A20041B8A6 /* MainMenu.xib */; };
+		6958085B2CB9F12600733D93 /* SpinnerCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6958085A2CB9F12600733D93 /* SpinnerCenter.png */; };
+		695ECACC2CB774320091EBBA /* Spinner.png in Resources */ = {isa = PBXBuildFile; fileRef = 695ECACB2CB774320091EBBA /* Spinner.png */; };
+		695ECACF2CB778260091EBBA /* MouseTrackingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 695ECACE2CB778260091EBBA /* MouseTrackingImageView.m */; };
+		695ECAD22CB78A8E0091EBBA /* VelocityTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 695ECAD12CB78A8E0091EBBA /* VelocityTracker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		690713901F26C4580041B8A6 /* WidgetSpinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetSpinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		690713931F26C4580041B8A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		690713941F26C4580041B8A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		690713971F26C4580041B8A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6907139C1F26C4580041B8A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		690713A11F26C4580041B8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		690713A71F26C4A20041B8A6 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		6958085A2CB9F12600733D93 /* SpinnerCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpinnerCenter.png; sourceTree = "<group>"; };
+		695ECACB2CB774320091EBBA /* Spinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spinner.png; sourceTree = "<group>"; };
+		695ECACD2CB778260091EBBA /* MouseTrackingImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MouseTrackingImageView.h; sourceTree = "<group>"; };
+		695ECACE2CB778260091EBBA /* MouseTrackingImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MouseTrackingImageView.m; sourceTree = "<group>"; };
+		695ECAD02CB78A8E0091EBBA /* VelocityTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VelocityTracker.h; sourceTree = "<group>"; };
+		695ECAD12CB78A8E0091EBBA /* VelocityTracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VelocityTracker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6907138D1F26C4580041B8A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		690713871F26C4580041B8A6 = {
+			isa = PBXGroup;
+			children = (
+				690713921F26C4580041B8A6 /* WidgetSpinner */,
+				690713911F26C4580041B8A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		690713911F26C4580041B8A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				690713901F26C4580041B8A6 /* WidgetSpinner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		690713921F26C4580041B8A6 /* WidgetSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				690713931F26C4580041B8A6 /* AppDelegate.h */,
+				690713A71F26C4A20041B8A6 /* MainMenu.xib */,
+				690713941F26C4580041B8A6 /* AppDelegate.m */,
+				695ECACD2CB778260091EBBA /* MouseTrackingImageView.h */,
+				695ECACE2CB778260091EBBA /* MouseTrackingImageView.m */,
+				695ECAD02CB78A8E0091EBBA /* VelocityTracker.h */,
+				695ECAD12CB78A8E0091EBBA /* VelocityTracker.m */,
+				695ECACB2CB774320091EBBA /* Spinner.png */,
+				6958085A2CB9F12600733D93 /* SpinnerCenter.png */,
+				6907139C1F26C4580041B8A6 /* Assets.xcassets */,
+				690713A11F26C4580041B8A6 /* Info.plist */,
+				690713961F26C4580041B8A6 /* Supporting Files */,
+			);
+			path = WidgetSpinner;
+			sourceTree = "<group>";
+		};
+		690713961F26C4580041B8A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				690713971F26C4580041B8A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6907138F1F26C4580041B8A6 /* WidgetSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 690713A41F26C4580041B8A6 /* Build configuration list for PBXNativeTarget "WidgetSpinner" */;
+			buildPhases = (
+				6907138C1F26C4580041B8A6 /* Sources */,
+				6907138D1F26C4580041B8A6 /* Frameworks */,
+				6907138E1F26C4580041B8A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetSpinner;
+			productName = WidgetSpinner;
+			productReference = 690713901F26C4580041B8A6 /* WidgetSpinner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		690713881F26C4580041B8A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Grishka;
+				TargetAttributes = {
+					6907138F1F26C4580041B8A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6907138B1F26C4580041B8A6 /* Build configuration list for PBXProject "WidgetSpinner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 690713871F26C4580041B8A6;
+			productRefGroup = 690713911F26C4580041B8A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6907138F1F26C4580041B8A6 /* WidgetSpinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6907138E1F26C4580041B8A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6958085B2CB9F12600733D93 /* SpinnerCenter.png in Resources */,
+				695ECACC2CB774320091EBBA /* Spinner.png in Resources */,
+				6907139D1F26C4580041B8A6 /* Assets.xcassets in Resources */,
+				690713A81F26C4A20041B8A6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6907138C1F26C4580041B8A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695ECACF2CB778260091EBBA /* MouseTrackingImageView.m in Sources */,
+				690713981F26C4580041B8A6 /* main.m in Sources */,
+				690713951F26C4580041B8A6 /* AppDelegate.m in Sources */,
+				695ECAD22CB78A8E0091EBBA /* VelocityTracker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		690713A21F26C4580041B8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		690713A31F26C4580041B8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		690713A51F26C4580041B8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = WidgetSpinner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Widget Spinner";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.grishka.WidgetSpinner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		690713A61F26C4580041B8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = WidgetSpinner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Widget Spinner";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.grishka.WidgetSpinner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6907138B1F26C4580041B8A6 /* Build configuration list for PBXProject "WidgetSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690713A21F26C4580041B8A6 /* Debug */,
+				690713A31F26C4580041B8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		690713A41F26C4580041B8A6 /* Build configuration list for PBXNativeTarget "WidgetSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690713A51F26C4580041B8A6 /* Debug */,
+				690713A61F26C4580041B8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 690713881F26C4580041B8A6 /* Project object */;
+}
