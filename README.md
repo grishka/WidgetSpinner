@@ -1,5 +1,6 @@
-<p align="center">
 A fidget spinner for your Mac, as seen on [Mastodon](https://mastodon.social/@grishka/113281494735871487) and [Twitter](https://twitter.com/grishka11/status/1844250198136193377).
+
+<p align="center">
 <img src="/Images/screenshot.jpg"/>
 </p>
 
