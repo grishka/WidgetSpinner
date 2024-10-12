@@ -16,7 +16,7 @@ The dragging of the window is broken when it's rotated.
 
 ## Supported system versions
 
-It works flawlessly on modern-ish macOS, but on 10.x, there are graphical glitches around the window as it rotates. I have no idea what causes this and how to fix it and would welcome a fix or an explanation. Might be related to the shadow.
+It works flawlessly on modern-ish macOS, but on 10.x, [there are graphical glitches around the window as it rotates](https://mastodon.social/@grishka/113292188541570204). I have no idea what causes this and how to fix it and would welcome a fix or an explanation. Might be related to the shadow.
 
 I set the deployment target to 10.9 (Mavericks) but only tested down to 10.12. It may or may not run on even older versions.
 
