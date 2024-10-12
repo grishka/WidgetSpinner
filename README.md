@@ -6,7 +6,7 @@ A fidget spinner for your Mac, as seen on [Mastodon](https://mastodon.social/@gr
 
 ## How do I run this?
 
-Download from [the releases section](https://github.com/grishka/WidgetSpinner), unzip, [circumvent Gatekeeper](https://disable-gatekeeper.github.io) or use [Sentinel](https://github.com/alienator88/Sentinel).
+Download from [the releases section](https://github.com/grishka/WidgetSpinner/releases), unzip, [circumvent Gatekeeper](https://disable-gatekeeper.github.io) or use [Sentinel](https://github.com/alienator88/Sentinel).
 
 ## How does it work?
 
